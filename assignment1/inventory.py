@@ -25,7 +25,7 @@ def payment(cart_items, cart_quantities):
         item_quantities[item_index] -= quantity
     print("Inventory updated.")
 
-# Main loop
+# Main menu
 while True:
     # Display main menu
     print("\n1. View Items\n2. Add Item\n3. Remove Item\n4. Update item\n5. Manage Cart\n6. Exit")
