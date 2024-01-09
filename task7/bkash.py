@@ -9,7 +9,7 @@ while True:
                 if len(number) == 11:
                     amount = int(input("Enter Amount: "))
                 else:
-                        print("Invalid number.")
+                    print("Invalid number.")
             else:
                 break
     elif dial == '0':
